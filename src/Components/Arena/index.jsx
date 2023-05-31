@@ -67,7 +67,7 @@ const Arena = ({ characterNFT, setCharacterNFT }) => {
         }
 
         else {
-          setAbilityState('attacking');
+          setAbilityState('special');
           console.log('Usando habilidade especial...');
           console.log(boss);
           const txn = await gameContract.useSpecialAbility();
