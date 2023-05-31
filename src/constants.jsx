@@ -26,8 +26,8 @@ const transformPlayerData = (playerData) => {
 
 const specialAbilityInfo = {
   "Charizard": "Charizard ataca causando seu dano de ataque e QUEIMA o inimigo, fazendo com que os ataques de todos os pokémons causem dano dobrado por uma hora.",
-  "Blastoise": "Blastoise ataca causando seu dano de ataque e CONGELA o inimigo, fazendo com que ele sofra metade do dano durante 10 minutos, mas também com que seus ataques tenham 90% de chance de não causar dano nos pokémons aliados.",
-  "Venusaur": "Venosaur cria uma rede de plantas curativas fazendo com que todos os pokémons aliados sofram apenas 50% do dano recebido por uma hora."
+  "Blastoise": "Blastoise ataca causando seu dano de ataque e CONGELA o inimigo, fazendo com que ele sofra metade do dano durante 5 minutos, mas também com que seus ataques tenham 90% de chance de não causar dano nos pokémons aliados.",
+  "Venusaur": "Venusaur cria uma rede de plantas curativas fazendo com que todos os pokémons aliados sofram apenas 50% do dano recebido por uma hora."
 };
 
 export { CONTRACT_ADDRESS, transformCharacterData, transformPlayerData, specialAbilityInfo };
