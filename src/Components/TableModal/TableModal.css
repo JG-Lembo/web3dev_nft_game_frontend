@@ -1,0 +1,45 @@
+:root {
+  --line-color: #dd68fd;
+  --line-width: 2px;
+}
+
+.table-overlay {
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.player-table {
+  border-collapse: collapse;
+  background-color: rgba(0, 0, 0, 0.95);
+}
+
+.player-table th {
+  border-bottom: var(--line-width) solid var(--line-color);
+  border-top: var(--line-width) solid var(--line-color);
+  border-left: var(--line-width) solid var(--line-color);
+  border-right: var(--line-width) solid var(--line-color);
+  padding: 5px;
+}
+
+.player-table tbody .player-row {
+  border-bottom: var(--line-width) solid var(--line-color);
+}
+
+.player-row td {
+  border-left: var(--line-width) solid var(--line-color);
+  border-right: var(--line-width) solid var(--line-color);
+  padding: 5px;
+}
+
+.player-row td img {
+  display: block;
+  margin: auto;
+}
